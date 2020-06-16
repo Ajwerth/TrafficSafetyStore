@@ -23,23 +23,20 @@ function getBrowser() {
 const userBrowser = getBrowser();
 
 
-// then check if greater versions are not compatible if not then the version must match exactly, if greater versions are compatible than the version must be atleast whatever the set version number is int he database or higher. 
+// if greater versions are not compatible then the version must match exactly, if greater versions are compatible then the version must be greater than or equal to the version number in the database. 
 function checkBrowser(userBrowser, browserArr){
 
     browserArr.map((item, userBrowser) => {
-        const allowedBrowser = item.BrowserName;
-        const allowedVersion = item.VersionNumber;
-        const allowedGreaterVers = item.GreaterVersion;
-        const ubName = userBrowser.name;
-        const ubVersion = userBrowser.version;
+        const {BrowserName: allowedBrowser, VersionNumber: allowedVersion, GreaterVersion: allowedGreaterVers} = item;
+        const {name: userBrowserName, version: userBrowserVersion} = userBrowser;
 
         if (greaterVers === false){
-            if (ubName === allowedBrowser && ubVersion === allowedVersion){
+            if (userBrowserName === allowedBrowser && userBrowserVersion === allowedVersion){
                 return true;
             }
         }
 
-        if(ubName === allowedBrowser && ubVersion >= allowedVersion){
+        if(userBrowserName === allowedBrowser && userBrowserVersion >= allowedVersion){
             return true;
         }
 
