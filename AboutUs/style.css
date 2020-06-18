@@ -173,7 +173,7 @@ p{
 .main-banner{
     width: 100%;
     height: 880px;
-    background-image: url('./companyphoto-1920.jpg');
+    background-image: url('./images/companyphoto-1920.jpg');
     background-size: cover;
     display: flex;
     justify-content: center;
