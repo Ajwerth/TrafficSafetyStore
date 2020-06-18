@@ -4,19 +4,298 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <!-- Style -->
+    <link rel="stylesheet" href="./style.css">
     <title>Hello, world!</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <div class="sale">June Sale - Happening Now</div>
+    <header>
+        <ul class="site-nav nav">
+            <li class="nav-item">
+                <a class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link">Install</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link">FAQ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link">Resources</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link">Sales Tax Exemption</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link">Contact</a>
+            </li>
+        </ul>
+        <div class="branding">
+            <img class="logo" src="./logo.png" alt="Traffic Safety Store Logo">
+            <p>Delivering Safety FAST Since 2002</p>
+            <div class=support>
+                <div class="support-branding row">
+                    <img class="flag" src="./icon-american-flag-small.png" alt="small american flag icon">
+                    <p class="support-text">Live Customer Support</p>
+                </div>
+                <a class="support-phone">800-429-9030</a>
+            </div>
+        </div>
+        <nav class="navbar navbar-default">
+            <div class="nav-left">
+                <a class="home"><i class="fas fa-home"></i></a>
+                <a class="products">
+                    <i class="fas fa-bars"></i>
+                    <p>All Products</p>
+                </a>
+            </div>
+            <div class="nav-right">
+                <form class="search">
+                    <input type="search" placeholder="Search" aria-label="Search">
+                    <button type="submit">Go</button>
+                </form>
+                <div class="login-cart">
+                    <div class="login">
+                        <a href="">Login</a>
+                        <p>or</p>
+                        <a href="">Register</a>
+                    </div>
+                    <div class="cart">
+                        <i class="fas fa-shopping-cart"></i>
+                        <p>0 items in cart</p>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <ul class="nav sub-nav">
+            <li class="nav-item"><a class="nav-link">The Company</a></li>
+            <li class="nav-item"><a class="nav-link">What We Do</a></li>
+            <li class="nav-item"><a class="nav-link">The Team</a></li>
+        </ul>
+    </header>
+    <main>
+        <div class="main-banner">
+            <div class="main-banner-text">
+                <h3>
+                    <strong>OUR EXPERIENCED TEAM TAKES </strong>PRIDE IN HARD WORK</h3>
+                <p>The Traffic Safety Store is Here to Help</p>
+            </div>
+        </div>
+        <div class="founder row">
+            <div class="col-2">
+                <img src="./will-headshot.jpg" alt="">
+            </div>
+            <div class="founder-text col-10">
+                <h5>A Message from the Founder</h5>
+                <p>At the Traffic Safety Store, we're proud to provide our customers with durable products that manage traffic, make their jobs easier, and more importantly - save lives.
+                </p>
+                <p>
+                In 2002, we were one of the first companies using the internet to bring traffic control products to people who did not have easy access to them. Before then, if you were lucky enough to have a source for our products, it was limited at best. From there, we grew to having the largest inventory of traffic products in the US. Unless it says otherwise on the website, everything is in-stock and ready to ship.
+                </p>
+                <p>
+                Please feel free to give us a call if you have any questions. Our team has years of experience and is ready to recommend a solution that meets your needs as well as your budget.
+                </p>
+                <p> 
+                Thank you,</p>
+                <img src="./will-snook-signature-white.png" alt="">
+            </div>
+        </div>
+        <div class="team container-fluid">
+            <div class="our-team">
+                <h4>Our Team</h4>
+            </div>
+            <div class="row">
+                <div class="emp col">
+                    <div class="emp-text">
+                        <p>Will Snook</p>
+                        <p>Founder & CEO</p>
+                    </div>
+                    <img src="./will-3-forwebsite-color.webp" alt="">
+                </div>
+                <div class="emp col">
+                    <div class="emp-text">
+                        <p>Joe Messina</p>
+                        <p>Warehouse Manager</p> 
+                        <p>Since 2006</p>
+                    </div>
+                    <img src="./joe-2.webp" alt="">
+                </div>
+                <div class="emp col">
+                    <div class="emp-text">
+                        <p>Darrin Mitchell</p>
+                        <p>Facilities Manager</p>
+                        <p>Since 2006</p>
+                    </div>
+                    <img src="./b-2.webp" alt="">
+                </div>
+                <div class="emp col">
+                    <div class="emp-text">
+                        <p>Mike McCaughan</p>
+                        <p>Director of Operations</p>
+                        <p>Since 2007</p>
+                    </div>
+                    <img src="./mike-2.jpeg" alt="">
+                </div>
+                <div class="emp col">
+                    <div class="emp-text">
+                        <p>Dave Barker</p>
+                        <p>Purchasing / Inventory Agent</p>
+                        <p>Since 2012</p>
+                    </div>
+                    <img src="./e-2.webp" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="emp col">
+                    <div class="emp-text">
+                        <p>Garth Lewis</p>
+                        <p>Lead Stencil Tech</p>
+                        <p>Since 2013</p>
+                    </div>
+                    <img src="./g-2.webp" alt="">
+                </div>
+                <div class="emp col">
+                    <div class="emp-text">
+                        <p>Steve Stanley</p>
+                        <p>Inside Sales</p>
+                        <p>Since 2013</p>
+                    </div>
+                    <img src="./m-2.webp" alt="">
+                </div>
+                <div class="emp col">
+                    <div class="emp-text">
+                        <p>Eric Benites</p>
+                        <p>Distribution Center Manager</p>
+                        <p>Since 2014</p>
+                    </div>
+                    <img src="./eric-2.webp" alt="">
+                </div>
+                <div class="emp col">
+                    <div class="emp-text">
+                        <p>Brian Westrick</p>
+                        <p>Chief Operating Officer</p>
+                        <p>Since 2014</p>
+                    </div>
+                    <img src="./brian-2.webp" alt="">
+                </div>
+                <div class="emp col">
+                    <div class="emp-text">
+                        <p>Joe Baranzano-Era</p>
+                        <p>Operations Manager</p>
+                        <p>Since 2014</p>
+                    </div>
+                    <img src="./j-2.webp" alt="">
+                </div>
+            </div>
+        </div>
+        <footer class="container-fluid">
+            <div class="row">
+                <div class="blog col">
+                    <h4>From the Blog</h4>
+                    <ul class="blog-list">
+                        <li>
+                            <p>03.25.20</p>
+                            <p class="footer-title">7 Safety Tips For Road Construction Work Zones</p>
+                            <p>America’s roads and infrastructure are aging and starting to crumble due to...</p>
+                        </li>
+                        <li>
+                            <p>03.25.20</p>
+                            <p class="footer-title">Diving This Winter? 7 Must-Have Items For Any Winter Car Survival Kit!</p>
+                            <p>If you live in an area that has harsh winters, it’s a good idea to build...</p>
+                        </li>
+                        <li>
+                            <p>01.11.20</p>
+                            <p class="footer-title">How Can I Slow Down Traffic In My Neighborhood? Use These 4 Tips.</p>
+                            <p>There are 263.6 million registered vehicles in the United States, and as more...</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h4>From Twitter</h4>
+                    <ul class="twitter-list">
+                        <li><strong>TrafSafetyStore</strong> Great article on Traffic Cones and Traffic Safety Store in Philadelphia Enquirer <strong>https://t.co/NasuATdb4e https://t.co/NasuATdb4e</strong></li>
+                        <li><strong>TrafSafetyStore</strong> Green Lighting HOV Lanes: Do They Help Traffic Problems? » Traffic Safety Resource Center <strong>https://t.co/Z0cCkVJDri</strong></li>
+                        <li><strong>TrafSafetyStore</strong> 4 Ways Cities Are Using Smart Technology To Control Traffic Congestion » Traffic Safety Resource Center <strong>https://t.co/CPMZc6AfTJ</strong></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h4>Keep In Touch</h4>
+                    <form action="">
+                        <label>Sign up for occasional free updates on promotions and special offers.</label>
+                        <div class="subscribe-group">
+                            <input type="email"  id="subscribe" placeholder="Email">
+                            <button type="submit" class="btn btn-primary mb-2" id="subscribe-btn">Subscribe</button>
+                        </div>
+                    </form>
+                    <div class="contact row">
+                        <div class="col-8">
+                            <ul class="social">
+                                <li><i class="fab fa-facebook-square"></i></li>
+                                <li><i class="fab fa-twitter-square"></i></li>
+                                <li><i class="fab fa-youtube-square"></i></li>
+                                <li><i class="fas fa-envelope-square"></i></li>
+                            </ul>
+                            <div class="phone-fax row">
+                                <div class="phone col"> Phone: 800-429-9030</div>
+                                <div class="fax col">Fax: 610-200-1066</div>
+                            </div>
+                        </div>
+                        <div class="hours col-4">
+                            <p class="footer-title">Hours:</p>
+                            <p>Monday - Thursday:</p>
+                            <p>8am-5:30pm ET</p>
+                            <p>Friday:</p>
+                            <p>8am-5pm ET</p>
+                        </div>
+                    </div>
+                    <div class="address row">
+                        <div class="col">
+                            <p class="footer-title">Headquarters:</p>
+                            <p>1247 Wright's Lane
+                                Unit E
+                                West Chester, PA 19380 USA</p>
+                        </div>
+                        <div class="col">
+                            <p class="footer-title">Mailing Address:</p>
+                            <p>
+                                The Traffic Safety Store
+                                P.O. Box 1449
+                                West Chester, PA 19380 USA
+                            </p>
+                        </div>
+                        <div class="col">
+                            <p class="footer-title">Distribution Centers:
+                            <ul class="dist-centers">
+                                <li>Louisville, KY</li>
+                                <li>Reno, NV</li>
+                                <li>Dallas, TX</li>
+                                <li>Greenville, SC</li>
+                                <li>Orlando, FL</li>
+                                <li>Chicago, IL</li>
+                                <li>Las Vegas, NV</li>
+                                <li>Salt Lake City, UT</li>
+                                <li>Albany, NY</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/bb091f0d6d.js" crossorigin="anonymous"></script>
   </body>
 </html>
